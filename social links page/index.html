@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    body{
+       background-color:hsl(0, 0%, 8%) ;
+       display: grid;
+       place-content: center;
+       min-height: 95vh;
+       font-family:Inter;
+      }  
+    .main{
+     text-align: center;
+     padding: 40px;
+     border-radius: 8px;
+     background-color: hsl(0, 0%, 12%);
+     height: auto;
+     width:fit-content;
+    }
+    .main img {     
+      border-radius: 200px;
+      height: 80px
+    }
+    .main h1{
+      color: white;
+      align-items: center;
+      
+    }
+    .main h2{
+      color: hsl(75, 94%, 57%);
+      font-size:medium;
+    }
+    .main p{
+      color: rgb(185, 182, 182);
+      font-size: smaller;
+    }
+    .links{
+      display: flex;
+      flex-direction: column ;
+      gap:10px;
+      text-align: center;
+
+    }
+    .links a {
+      font-weight:400 ;
+      border-radius: 8px;
+      text-decoration: none;
+      background-color:hsl(0, 0%, 20%);
+      color: white;
+      display: block;
+      padding: 7px;
+    }
+    .links :hover{
+      background-color:hsl(75, 94%, 57%);
+      color: black;  
+      border-radius: 8px;
+    }
+    /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+    
+  </style>
+
+</head>
+<body>
+  <div class="main">
+  <img src ='assets/images/avatar-jessica.jpeg'><br>
+  <h1>Jessica Randall</h1>
+ <h2>London, United Kingdom</h2>
+  <p>"Front-end developer and avid reader."</p>
+  <div class="links">
+    <div><a href="#">GitHub</a></div>
+    <div><a href="#">Frontend Mentor</a></div>
+    <div><a href="#">Linkedin</a></div>
+    <div><a href="#">Twitter</a></div>
+    <div><a href="#">Instgram</a></div>
+  </div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+  </div>
+ </div>
+</body>
+</html>
